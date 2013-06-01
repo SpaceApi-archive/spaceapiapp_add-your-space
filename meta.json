@@ -1,0 +1,13 @@
+{
+    "App": "Add your space",
+    "Description": "Add your hackerspace Space API endpoint to the directory.",
+    "Authors": [
+        {
+            "Name": "Romain Schmitz",
+            "Nickname": "Slopjong",
+            "Hackerspace": "Syn2cat"
+        }
+    ],
+    "License": "",
+    "Updated": "20.5.2013"
+}
