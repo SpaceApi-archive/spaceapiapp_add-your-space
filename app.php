@@ -15,15 +15,9 @@
 if(!defined("APPSDIR"))
     die("Direct access is not allowed!");
 
-$app_dir = realpath(dirname(__FILE__));
-// remove the full path of the document root
-$app_dir = str_replace(ROOTDIR, "", $app_dir);
-
-$page->setActivePage(basename($app_dir));
-
 //********************************************************************
 
-$page->addStylesheet("$app_dir/css/style.css");
+$page->addStylesheet("css/style.css");
 
 $scripts = array(
     "add-your-space.js",
@@ -31,7 +25,7 @@ $scripts = array(
 );
 
 foreach($scripts as $script)
-    $page->addScript("$app_dir/scripts/$script");
+    $page->addScript("scripts/$script");
 
 
 $html = <<<HTML
