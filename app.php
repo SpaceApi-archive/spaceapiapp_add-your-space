@@ -92,6 +92,7 @@ $html = <<<HTML
         <p>
             <ol>
                 <li>Create a new issue on <a href="https://github.com/spaceapi/OpenSpaceDirectory/issues/new" target="_blank">Github</a>.</li>
+                <li>Join <a href="https://webchat.freenode.net/?channels=spaceapi" target="_blank">#spaceapi</a> on freenode.</li>
                 <li>Subscribe to <a href="mailto:spaceapi-devel@lists.hackerspaces.org">spaceapi-devel@lists.hackerspaces.org</a> and ask for a change.</li>
             </ol>
         </p>
